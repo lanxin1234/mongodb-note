@@ -102,7 +102,6 @@ db.students.update({'name':'小明'},{$set:{'age':44}})
 ```
 db.students.update({'name':'小明'},{$inc:{'age':2}})
 ```
- <img src="imgs/201-12-26_$inc.png" width = "400" >
 
 
 ##### 15.3 $unset：删除指定的键：
